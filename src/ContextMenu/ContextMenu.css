@@ -1,0 +1,21 @@
+.ContextMenu__wrapper {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: white;
+  border: 1px solid #ddd;
+  min-width: 100px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.ContextMenu__item {
+  border: none;
+  background: white;
+  font-size: inherit;
+  padding: 10px 20px;
+}
+.ContextMenu__item:hover {
+  background: #eee;
+}
